@@ -35,12 +35,12 @@ test:
     - agateexcel
 
 about:
-  home: http://agate-excel.readthedocs.org/
+  home: https://agate-excel.readthedocs.org/
+  license_file: COPYING
   license: MIT
   license_family: MIT
-  # license_file: COPYING - not included in MANIFEST - see https://github.com/wireservice/agate-excel/pull/20
-  summary: 'agate-excel adds read support for Excel files (xls and xlsx) to agate.'
-  doc_url: http://agate-excel.readthedocs.org/
+  summary: agate-excel adds read support for Excel files (xls and xlsx) to agate.
+  doc_url: https://agate-excel.readthedocs.org/
   dev_url: https://github.com/wireservice/agate-excel
 
 extra:
