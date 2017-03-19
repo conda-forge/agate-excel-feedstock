@@ -1,7 +1,7 @@
 About agate-excel
 =================
 
-Home: http://agate-excel.readthedocs.org/
+Home: https://agate-excel.readthedocs.org/
 
 Package license: MIT
 
