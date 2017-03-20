@@ -1,8 +1,8 @@
 {%set name = "agate-excel" %}
-{%set version = "0.2.0" %}
+{%set version = "0.2.1" %}
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
-{%set hash_val = "5e75452fefe1ffe18fe695eeb08337c50eb3f0b74bfe108d5a85a2bb3ee806d2" %}
+{%set hash_val = "c7621051307a4650b95309a2e13f5774d08719421c9d965b461629a002d048b4" %}
 {%set build_num = "0" %}
 
 package:
@@ -35,12 +35,12 @@ test:
     - agateexcel
 
 about:
-  home: http://agate-excel.readthedocs.org/
+  home: https://agate-excel.readthedocs.org/
+  license_file: COPYING
   license: MIT
   license_family: MIT
-  # license_file: COPYING - not included in MANIFEST - see https://github.com/wireservice/agate-excel/pull/20
-  summary: 'agate-excel adds read support for Excel files (xls and xlsx) to agate.'
-  doc_url: http://agate-excel.readthedocs.org/
+  summary: agate-excel adds read support for Excel files (xls and xlsx) to agate.
+  doc_url: https://agate-excel.readthedocs.org/
   dev_url: https://github.com/wireservice/agate-excel
 
 extra:
