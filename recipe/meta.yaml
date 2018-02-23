@@ -1,5 +1,5 @@
 {% set name = "agate-excel" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
 {% set hash = "c7621051307a4650b95309a2e13f5774d08719421c9d965b461629a002d048b4" %}
@@ -15,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
