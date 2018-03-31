@@ -14,9 +14,7 @@ Summary: agate-excel adds read support for Excel files (xls and xlsx) to agate.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/agate-excel-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/agate-excel-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/agate-excel-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/agate-excel-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/agate-excel-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/agate-excel-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/agate-excel-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/agate-excel-feedstock)
 
 Current release info
 ====================
