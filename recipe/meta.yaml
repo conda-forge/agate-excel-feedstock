@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/a/agate-excel/agate-excel-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/a/agate-excel/agate-excel-{{ version }}.tar.gz
   sha256: 28426618c90747111e6d566e983d838f1e2fae641ea6970d7acb0e9d4b384091
 
 build:
@@ -14,9 +14,10 @@ build:
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - agate >=1.5.0
