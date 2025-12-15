@@ -1,12 +1,12 @@
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: agate-excel
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/a/agate-excel/agate-excel-{{ version }}.tar.gz
-  sha256: 28426618c90747111e6d566e983d838f1e2fae641ea6970d7acb0e9d4b384091
+  url: https://pypi.org/packages/source/a/agate-excel/agate_excel-{{ version }}.tar.gz
+  sha256: eed1dc6239f0e96720d962dc1bdfb4496e19687332c827fd8b1e587a917ea202
 
 build:
   number: 0
