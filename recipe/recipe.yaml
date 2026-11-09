@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.2"
+  version: "0.4.3"
 
 package:
   name: agate-excel
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agate-excel/agate_excel-${{ version }}.tar.gz
-  sha256: eed1dc6239f0e96720d962dc1bdfb4496e19687332c827fd8b1e587a917ea202
+  sha256: c510b3cec7d679e254a257cae852b67191286b31d55165d8116d5802afbc92fc
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . --no-deps -vv
 
